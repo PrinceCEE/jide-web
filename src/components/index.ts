@@ -5,3 +5,4 @@ export * from "./Flex";
 export * from "./Image";
 export * from "./Inputs";
 export * from "./Typography";
+export * from "./Fonts";

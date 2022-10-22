@@ -1,3 +1,5 @@
+import { ReactNode } from "react";
+
 export type BoxType = {};
 
 export type ButtonType = {};
@@ -17,3 +19,10 @@ export type TextInputType = {};
 export type ParagraphType = {};
 
 export type TextType = {};
+
+export type HeadType = {};
+
+export type FontType = {
+  children: ReactNode;
+  type: "Manrope" | "Rebond";
+};
